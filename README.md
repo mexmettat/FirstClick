@@ -1,8 +1,9 @@
-# 🚀 **Takım İsmi: Grup 15**
+# **Takım İsmi**
+Grup 15
 
 ---
 
-# 🎯 **Ürün İle İlgili Bilgiler**
+# **Ürün İle İlgili Bilgiler**
 
 ## 👥 **Takım Elemanları**
 
@@ -13,15 +14,15 @@
 
 ---
 
-## 💡 **Ürün İsmi**
+## **Ürün İsmi**
 
-### **FirstClick** (PersonaLab AI)
+### **FirstClick**
 
 > **Slogan:** *"Ürününü kullanıcı gözünden test et."*
 
 ---
 
-## 📝 **Ürün Açıklaması**
+## **Ürün Açıklaması**
 
 **FirstClick (PersonaLab AI)**, ürün fikirlerini gerçek kullanıcıya sunmadan önce test etmeyi ve doğrulamayı sağlayan yapay zeka destekli bir kullanıcı simülasyonu platformudur. Girişimciler, ürün yöneticileri ve tasarımcılar; hedef kitle personalarını (üniversite öğrencisi, yoğun çalışan anne, teknik bilmeyen kullanıcı vb.) seçerek ürünlerinin değer önerisini, kullanıcı akışını ve olası engellerini yapay zeka ajanları (simüle edilmiş kullanıcılar) aracılığıyla test edip detaylıca analiz edebilirler. 
 
