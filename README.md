@@ -13,7 +13,7 @@ Grup 15
 | <img src="https://github.com/mexmettat.png" width="50" height="50" style="border-radius: 50%;"/> | **Mehmet TAT** | Scrum Master | [🔗 @mexmettat](https://github.com/mexmettat) |
 | <img src="https://github.com/github_username_hasibe.png" width="50" height="50" style="border-radius: 50%;"/> | **Hasibe AKDOĞAN** | Developer | [🔗 @github_username_hasibe](https://github.com/github_username_hasibe) |
 | <img src="https://github.com/github_username_elif.png" width="50" height="50" style="border-radius: 50%;"/> | **Elif İMİL** | Developer | [🔗 @github_username_elif](https://github.com/github_username_elif) |
-| <img src="https://github.com/github_username_sevdenur.png" width="50" height="50" style="border-radius: 50%;"/> | **Sevdenur GÖKBULUT** | Developer | [🔗 @github_username_sevdenur](https://github.com/github_username_sevdenur) |
+| <img src="https://github.com/Sevdenurgokbulut.png" width="50" height="50" style="border-radius: 50%;"/> | **Sevdenur GÖKBULUT** | Developer | [🔗 @Sevdenurgokbulut](https://github.com/Sevdenurgokbulut) |
 
 ---
 
