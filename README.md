@@ -35,7 +35,7 @@ FirstClick, ürün fikirlerini gerçek kullanıcıya sunmadan önce test etmeyi 
 
 ## Product Backlog URL
 
-- [Miro Backlog Board](https://miro.com/app/board/...) *(Miro board linkinizi buraya ekleyin)*
+- [Miro Backlog Board](https://miro.com/app/board/uXjVH_yynQ4=/?share_link_id=164763609994)
 
 ---
 
