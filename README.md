@@ -101,9 +101,18 @@ Grup 15
   - **Kararlar**: Sonraki sprint hedeflerine yönelik düzenlemeler.
 
 - **Sprint Retrospective**:
-  - **Neler İyi Gitti?**: ...
-  - **Neler Geliştirilebilir?**: ...
-  - **Aksiyon Planları**: ...
+  - **Neler İyi Gitti?**:
+    - Next.js (Frontend) ve FastAPI (Backend) proje altyapısı hızlıca kurularak entegre edildi.
+    - Mock API altyapısı ve hazırlanan tasarımlar sayesinde frontend ve backend geliştirme süreçleri paralel ve verimli ilerledi.
+    - Miro panosu üzerinden görev dağılımları ve Story Point planlaması gerçekçi bir şekilde yapıldı.
+  - **Neler Geliştirilebilir?**:
+    - Daily Scrum takibi Whatsapp/Slack üzerinden yapılmasına rağmen zaman zaman paylaşımlarda gecikmeler yaşandı. Güncellemelerin daha disiplinli yapılması sağlanabilir.
+    - Git branch yönetimi ve kod gözden geçirme (Code Review) süreçlerine daha fazla odaklanılabilir.
+  - **Aksiyon Planları**:
+    - Daily Scrum güncellemeleri her sabah en geç saat 11:00'e kadar ortak kanaldan standart bir şablonla paylaşılacak.
+    - Büyük değişiklikler yerine daha küçük ve odaklanmış PR'lar (Pull Request) açılacak.
+    - Sprint 2'deki Supabase entegrasyonu ve gerçek OpenAI servis bağlantıları için teknik ön araştırmalar (Spike) sprint başında tamamlanacak.
+
 
 ---
 
