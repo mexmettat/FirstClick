@@ -93,6 +93,10 @@ Grup 15
   #### 📈 Sonuç Ekranı (Results)
   ![Sonuç Ekranı](screenshoots/sp1app2.jpg)
 
+  #### ⚙️ API Dokümantasyonu (FastAPI Swagger)
+  ![API Dokümantasyonu](screenshoots/sp1appapi.jpg)
+
+
 
 - **Sprint Review**:
   - **Katılımcılar**: Bütün takım üyeleri.
@@ -167,6 +171,8 @@ make run-frontend  # http://localhost:3000 adresinde çalışır
 ```
 
 API dokümantasyonuna [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) adresinden erişebilirsiniz.
+
+![FastAPI Swagger API Dokümantasyonu](screenshoots/sp1appapi.jpg)
 
 ## Proje Klasör Yapısı
 
