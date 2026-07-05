@@ -63,7 +63,14 @@ Grup 15
   
   Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack / Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı ekran görüntüleri veya logları aşağıda paylaşılmaktadır:
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack / Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı ekran görüntüleri aşağıda paylaşılmaktadır:
+
+  <p align="center">
+    <img src="screenshoots/sp1m1.jpg" width="48%" />
+    <img src="screenshoots/sp1m2.jpg" width="48%" />
+    <img src="screenshoots/sp1m3.jpg" width="48%" />
+    <img src="screenshoots/sp1m4.jpg" width="48%" />
+  </p>
 
 - **Sprint Board Update**: Miro panomuzda kullanılan kart renk kodları ve Story Point (SP) dağılımları aşağıda açıklanmıştır:
   - 🔵 **Mavi Kartlar**: User Story (Kullanıcı Hikayesi)
