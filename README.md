@@ -27,7 +27,7 @@ Grup 15
 
 ## **Ürün Açıklaması**
 
-**FirstClick (PersonaLab AI)**, ürün fikirlerini gerçek kullanıcıya sunmadan önce test etmeyi ve doğrulamayı sağlayan yapay zeka destekli bir kullanıcı simülasyonu platformudur. Girişimciler, ürün yöneticileri ve tasarımcılar; hedef kitle personalarını (üniversite öğrencisi, yoğun çalışan anne, teknik bilmeyen kullanıcı vb.) seçerek ürünlerinin değer önerisini, kullanıcı akışını ve olası engellerini yapay zeka ajanları (simüle edilmiş kullanıcılar) aracılığıyla test edip detaylıca analiz edebilirler. 
+**FirstClick**, ürün fikirlerini gerçek kullanıcıya sunmadan önce test etmeyi ve doğrulamayı sağlayan yapay zeka destekli bir kullanıcı simülasyonu platformudur. Girişimciler, ürün yöneticileri ve tasarımcılar; hedef kitle personalarını (üniversite öğrencisi, yoğun çalışan anne, teknik bilmeyen kullanıcı vb.) seçerek ürünlerinin değer önerisini, kullanıcı akışını ve olası engellerini yapay zeka ajanları (simüle edilmiş kullanıcılar) aracılığıyla test edip detaylıca analiz edebilirler. 
 
 **Vurucu Özelliği:** Sadece fikir yorumlayan sıradan bir yapay zeka değil; persona ajanları, kullanıcı yolculuğu simülasyonu, UX risk analizi, onboarding önerisi ve feedback hafızası barındıran gerçekçi bir kullanıcı testi simülasyon laboratuvarıdır.
 
