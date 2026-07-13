@@ -85,7 +85,7 @@ export function ResultsDashboard({ result, productName, source }: ResultsDashboa
         </h3>
         <div className="grid gap-4 lg:grid-cols-2">
           {result.personas.map((persona) => (
-            <Card key={persona.name} className="transition-shadow hover:shadow-md">
+            <Card key={persona.name} className="transition-shadow hover:shadow-md print:break-inside-avoid print:mb-8">
               <CardHeader className="pb-3">
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-base">{persona.name}</CardTitle>
@@ -129,7 +129,7 @@ export function ResultsDashboard({ result, productName, source }: ResultsDashboa
         numbered
       />
 
-      <Card>
+      <Card className="print:break-inside-avoid print:mb-8">
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-base">
             <MessageSquareQuote className="h-5 w-5 text-violet-600" />
@@ -192,7 +192,7 @@ function InsightList({
   numbered?: boolean;
 }) {
   return (
-    <Card>
+    <Card className="print:break-inside-avoid print:mb-8">
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-base">
           <Icon className={cn("h-5 w-5", iconColor)} />
