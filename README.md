@@ -127,6 +127,59 @@ Grup 15
 
 ---
 
+# Sprint 2
+
+- **Backlog Düzeni ve Story Seçimleri**: Sprint 2 kapsamında, projenin temel yapay zeka analiz motorunun gelişmiş çoklu persona mimarisine geçirilmesi ve kullanıcı deneyiminin (UI/UX) iyileştirilmesi önceliklendirilmiştir. İşler, kullanıcı hikayelerine (User Story - Mavi Kartlar) ve bunlara bağlı teknik görevlere (Task - Kırmızı Kartlar) bölünmüştür.
+
+- **Daily Scrum**: Daily Scrum toplantıları planlandığı gibi Slack / Whatsapp üzerinden sürdürülmektedir. Ekran görüntüleri aşağıdaki alana eklenecektir:
+
+  <p align="center">
+    <!-- Sprint 2 Daily Scrum Ekran Görüntüleri Buraya Eklenecek -->
+    <!-- Örnek: <img src="screenshoots/sp2m1.jpg" width="48%" /> -->
+  </p>
+
+- **Sprint Board Update**: Miro panomuzda Sprint 2 hedefleri doğrultusunda kartların güncel dağılımı yapılmıştır.
+  - 🔵 **Mavi Kartlar**: User Story (Kullanıcı Hikayesi)
+  - 🔴 **Kırmızı Kartlar**: Task (Yapılacak Teknik İş)
+
+  ### **Story Point (SP) Dağılımı ve Değerlendirme:**
+  Sprint 2'de toplam iş yükünü dengelemek adına aşağıdaki story point planlaması uygulanmıştır:
+  - 🔵 **AI Persona Ajanları ve Temel Simülasyon**: **30 SP** *(Done)*
+  - 🔵 **Arayüz Tasarımının Yenilenmesi**: **15 SP** *(Done)*
+  - 🔵 **Raporlama ve PDF Entegrasyonu**: **20 SP** *(In Progress)*
+  - 🔵 **Özelleştirilebilir Persona Yönetimi**: **15 SP** *(To Do)*
+  - 🔵 **Kullanıcı ve Analiz Geçmişi (Supabase & Auth)**: **20 SP** *(Backlog - Sprint 3)*
+  - 🔵 **RAG (Retrieval-Augmented Generation) Entegrasyonu**: **25 SP** *(Backlog - Sprint 3)*
+
+  ### **Miro Sprint Board Görünümü:**
+  <!-- Sprint 2 Miro Board Ekran Görüntüsü Buraya Eklenecek -->
+  <!-- Örnek: ![Sprint 2 Board](screenshoots/sprint2.jpg) -->
+
+- **Ürün Durumu**: Sprint 2 kapsamında geliştirilen ve güncellenen çalışan ürün ekran görüntüleri bu alanda paylaşılacaktır:
+
+  #### 📄 Raporlama Ekranı & PDF Çıktı Desteği
+  <!-- Rapor ekranı ve PDF buton görselleri buraya eklenecek -->
+
+  #### ⚙️ Özelleştirilebilir Persona Yönetimi (Modal Arayüzü)
+  <!-- Custom persona tanımlama ekranı görselleri buraya eklenecek -->
+
+- **Sprint Review**:
+  - **Katılımcılar**: Bütün takım üyeleri.
+  - **Sunulan Özellikler**: Sprint 2 kapsamında tamamlanan çoklu persona mimarisi, arayüz iyileştirmeleri, PDF baskı şablonu hazırlıkları ve yeni eklenecek olan özelleştirilebilir persona özellikleri.
+  - **Geri Bildirimler**: Alınan dönütler doğrultusunda Sprint 3 planlaması.
+
+- **Sprint Retrospective**:
+  - **Neler İyi Gitti?**:
+    - Çoklu persona simülasyonu için paralel çalışan backend altyapısı başarıyla kuruldu.
+    - Tasarım pastel mor temaya uyarlanarak görsel bütünlük sağlandı.
+  - **Neler Geliştirilebilir?**:
+    - [Geliştirilecek alanlar retrospektif toplantısı sonrası doldurulacaktır]
+  - **Aksiyon Planları**:
+    - [Aksiyon planları retrospektif toplantısı sonrası doldurulacaktır]
+
+
+---
+
 # Teknik Kurulum ve Mimari
 
 > [!NOTE]
