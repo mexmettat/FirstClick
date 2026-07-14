@@ -172,9 +172,12 @@ Grup 15
     - Çoklu persona simülasyonu için paralel çalışan backend altyapısı başarıyla kuruldu.
     - Tasarım pastel mor temaya uyarlanarak görsel bütünlük sağlandı.
   - **Neler Geliştirilebilir?**:
-    - [Geliştirilecek alanlar retrospektif toplantısı sonrası doldurulacaktır]
+    - İşlerin bağımlılık analizi (dependency mapping) daha erken yapılabilirdi. Örneğin veritabanı geçmişinin kullanıcı girişine (Auth) doğrudan bağlı olduğunu planlama aşamasında gözden kaçırdığımız için sonradan planı revize etmek durumunda kaldık.
+    - Tasarım aşamasında karanlık ve hover durumları gibi durumların okunabilirlik (kontrast) testleri geliştirme aşamasında daha erken fark edilebilirdi (Örn: Özellik kartlarının hover esnasında metin okunabilirliği sorunu).
   - **Aksiyon Planları**:
-    - [Aksiyon planları retrospektif toplantısı sonrası doldurulacaktır]
+    - Sprint 3'teki Supabase Auth ve Veritabanı geliştirmelerine başlamadan önce şema tasarımı ve akış diyagramı (flowchart) çizilerek tüm takımın hizalanması sağlanacak.
+    - PR (Pull Request) kabul kriterlerine görsel arayüz kontrollerini (özellikle hover, focus ve responsive durumları) test etme kriteri eklenecek.
+    - Daily Scrum takibindeki disiplin (her sabah saat 11:00 standardı) Sprint 3'te de aynı kararlılıkla sürdürülecek.
 
 
 ---
