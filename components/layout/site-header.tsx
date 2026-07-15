@@ -14,12 +14,6 @@ export function SiteHeader() {
         <nav className="flex items-center gap-4">
           <Link
             href="/analyze"
-            className="text-sm font-medium text-slate-600 transition-colors hover:text-brand-600"
-          >
-            Analiz
-          </Link>
-          <Link
-            href="/analyze"
             className="rounded-xl bg-gradient-to-r from-brand-600 to-violet-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-all hover:shadow-md"
           >
             Analize Başla
