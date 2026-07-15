@@ -134,8 +134,11 @@ Grup 15
 - **Daily Scrum**: Daily Scrum toplantıları planlandığı gibi Slack / Whatsapp üzerinden sürdürülmektedir. Ekran görüntüleri aşağıdaki alana eklenecektir:
 
   <p align="center">
-    <!-- Sprint 2 Daily Scrum Ekran Görüntüleri Buraya Eklenecek -->
-    <!-- Örnek: <img src="screenshoots/sp2m1.jpg" width="48%" /> -->
+    <img src="screenshoots/sp2m1.jpg" width="32%" />
+    <img src="screenshoots/sp2m2.jpg" width="32%" />
+    <img src="screenshoots/sp2m3.jpg" width="32%" />
+    <img src="screenshoots/sp2m4.jpg" width="32%" />
+    <img src="screenshoots/sp2m5.jpg" width="32%" />
   </p>
 
 - **Sprint Board Update**: Miro panomuzda Sprint 2 hedefleri doğrultusunda kartların güncel dağılımı yapılmıştır.
