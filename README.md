@@ -183,6 +183,7 @@ Grup 15
   - **Katılımcılar**: Bütün takım üyeleri.
   - **Sunulan Özellikler**: Sprint 2 kapsamında tamamlanan çoklu persona mimarisi, arayüz iyileştirmeleri, PDF baskı şablonu hazırlıkları ve yeni eklenecek olan özelleştirilebilir persona özellikleri.
   - **Geri Bildirimler**: Alınan dönütler doğrultusunda Sprint 3 planlaması.
+  - **Kararlar**: Supabase Auth ve Veritabanı entegrasyonunun Sprint 3 planında önceliklendirilmesine karar verilmiştir.
 
 - **Sprint Retrospective**:
   - **Neler İyi Gitti?**:
