@@ -1,10 +1,13 @@
 "use client";
 
+import { Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { ScoreRing } from "@/components/ui/score-ring";
 import { cn } from "@/lib/utils";
+import { generatePDF } from "@/lib/pdf";
 import type { AnalysisResult } from "@/types/analysis";
 import {
   AlertTriangle,
@@ -29,9 +32,17 @@ function likelihoodVariant(likelihood: string): "success" | "warning" | "danger"
 }
 
 export function ResultsDashboard({ result, productName, source }: ResultsDashboardProps) {
+  const downloadPDF = () => {
+    generatePDF(result, productName, source);
+  };
+
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-3">
+        <Button onClick={downloadPDF}>
+          <Download className="h-4 w-4 mr-2" />
+          Download PDF
+        </Button>
         {productName && (
           <h2 className="text-2xl font-bold text-slate-900">{productName}</h2>
         )}
