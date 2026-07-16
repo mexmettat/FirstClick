@@ -157,13 +157,27 @@ Grup 15
   ### **Miro Sprint Board Görünümü:**
   ![Sprint 2 Board](screenshoots/sprint2.jpeg)
 
-- **Ürün Durumu**: Sprint 2 kapsamında geliştirilen ve güncellenen çalışan ürün ekran görüntüleri bu alanda paylaşılacaktır:
+- **Ürün Durumu**: Sprint 2 kapsamında geliştirilen ve güncellenen çalışan ürün ekran görüntüleri:
 
-  #### 📄 Raporlama Ekranı & PDF Çıktı Desteği
-  <!-- Rapor ekranı ve PDF buton görselleri buraya eklenecek -->
+  #### 🔍 Yenilenen Giriş ve Form Arayüzü
+  <p align="center">
+    <img src="screenshoots/sp2app0.jpg" width="48%" />
+    <img src="screenshoots/sp2app1jpg.jpg" width="48%" />
+  </p>
 
   #### ⚙️ Özelleştirilebilir Persona Yönetimi (Modal Arayüzü)
-  <!-- Custom persona tanımlama ekranı görselleri buraya eklenecek -->
+  <p align="center">
+    <img src="screenshoots/sp2app2.jpg" width="48%" />
+    <img src="screenshoots/sp2app3.jpg" width="48%" />
+  </p>
+
+  #### 📄 Raporlama Ekranı & PDF Çıktı Desteği
+  <p align="center">
+    <img src="screenshoots/sp2app4.jpg" width="48%" />
+    <img src="screenshoots/sp2app5.jpg" width="48%" />
+  </p>
+
+  🔗 **Oluşturulan Örnek PDF Raporu:** [OdakKüpü_sp2.pdf (screenshoots/OdakKüpü_sp2.pdf)](screenshoots/OdakKüpü_sp2.pdf)
 
 - **Sprint Review**:
   - **Katılımcılar**: Bütün takım üyeleri.
