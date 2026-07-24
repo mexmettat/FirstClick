@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import type { CSSProperties } from "react";
 
 interface ScoreRingProps {
   score: number;
@@ -51,8 +52,13 @@ export function ScoreRing({ score, label, size = "md", className, invert = false
             strokeWidth={stroke}
             strokeLinecap="round"
             strokeDasharray={circumference}
-            strokeDashoffset={offset}
-            className="transition-all duration-700 ease-out"
+            className="animate-score-fill"
+            style={
+              {
+                "--score-circumference": String(circumference),
+                "--score-offset": String(offset),
+              } as CSSProperties
+            }
           />
         </svg>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
