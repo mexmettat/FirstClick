@@ -1,0 +1,202 @@
+[
+  {
+    "id": "eval-01",
+    "productName": "TaskFlow",
+    "productDescription": "Küçük ekipler için sprint ve görev panosu. 2 dakikada kurulum.",
+    "targetAudience": "Startup ekipleri",
+    "coreFeatures": "Kanban, Slack, deneme",
+    "differentiator": "Jira kadar ağır değil",
+    "selectedPersonas": ["non-technical", "busy-professional", "skeptical"],
+    "expectedOverall": [45, 75]
+  },
+  {
+    "id": "eval-02",
+    "productName": "PayLite",
+    "productDescription": "Freelancer’lar için fatura ve ödeme takibi. Tek ekran.",
+    "targetAudience": "Freelance tasarımcılar",
+    "coreFeatures": "Fatura, hatırlatma, PDF",
+    "differentiator": "Komisyon yok",
+    "selectedPersonas": ["price-sensitive", "first-timer"],
+    "expectedOverall": [40, 80]
+  },
+  {
+    "id": "eval-03",
+    "productName": "HireSignal",
+    "productDescription": "Teknik işe alım için otomatik screening soruları.",
+    "targetAudience": "HR ve teknik lead’ler",
+    "coreFeatures": "Soru bankası, skorlama, ATS entegrasyon",
+    "differentiator": "Bias azaltma raporları",
+    "selectedPersonas": ["skeptical", "busy-professional"],
+    "expectedOverall": [45, 80]
+  },
+  {
+    "id": "eval-04",
+    "productName": "StudyBuddy",
+    "productDescription": "Öğrenciler için AI flashcard ve tekrar planı.",
+    "targetAudience": "Üniversite öğrencileri",
+    "coreFeatures": "Flashcard, spaced repetition, ücretsiz plan",
+    "differentiator": "Türkçe içerik",
+    "selectedPersonas": ["student", "price-sensitive"],
+    "expectedOverall": [50, 85]
+  },
+  {
+    "id": "eval-05",
+    "productName": "ShopPulse",
+    "productDescription": "D2C markalar için stok ve kampanya paneli.",
+    "targetAudience": "E-ticaret operasyon",
+    "coreFeatures": "Stok uyarı, kampanya A/B",
+    "differentiator": "Shopify native",
+    "selectedPersonas": ["busy-professional", "non-technical"],
+    "expectedOverall": [40, 78]
+  },
+  {
+    "id": "eval-06",
+    "productName": "ClinicQueue",
+    "productDescription": "Klinikler için randevu ve sıra yönetimi.",
+    "targetAudience": "Küçük klinikler",
+    "coreFeatures": "Randevu, SMS, bekleme listesi",
+    "differentiator": "KVKK odaklı",
+    "selectedPersonas": ["non-technical", "skeptical"],
+    "expectedOverall": [40, 75]
+  },
+  {
+    "id": "eval-07",
+    "productName": "DevOps Desk",
+    "productDescription": "Incident timeline ve on-call rotasyonu.",
+    "targetAudience": "SRE ekipleri",
+    "coreFeatures": "Pager, postmortem, Slack",
+    "differentiator": "Otomatik timeline",
+    "selectedPersonas": ["busy-professional", "skeptical"],
+    "expectedOverall": [45, 82]
+  },
+  {
+    "id": "eval-08",
+    "productName": "RentMatch",
+    "productDescription": "Kiracı-ev sahibi eşleştirme marketplace.",
+    "targetAudience": "Şehir değiştiren profesyoneller",
+    "coreFeatures": "İlan, mesaj, depozito escrow",
+    "differentiator": "Doğrulanmış ilanlar",
+    "selectedPersonas": ["first-timer", "price-sensitive", "skeptical"],
+    "expectedOverall": [35, 75]
+  },
+  {
+    "id": "eval-09",
+    "productName": "BrandKit AI",
+    "productDescription": "Startup’lar için logo + renk + pitch deck şablonları.",
+    "targetAudience": "Founder’lar",
+    "coreFeatures": "Şablon, export, marka kit",
+    "differentiator": "Tek tıkta tutarlı kimlik",
+    "selectedPersonas": ["first-timer", "busy-professional"],
+    "expectedOverall": [45, 80]
+  },
+  {
+    "id": "eval-10",
+    "productName": "MealRoute",
+    "productDescription": "Ofis öğle yemeği toplu sipariş ve rota.",
+    "targetAudience": "Ofis yöneticileri",
+    "coreFeatures": "Menü, ödeme bölüşme, teslimat",
+    "differentiator": "Şirket hesabı",
+    "selectedPersonas": ["busy-professional", "price-sensitive"],
+    "expectedOverall": [40, 78]
+  },
+  {
+    "id": "eval-11",
+    "productName": "LegalBrief",
+    "productDescription": "Sözleşme özeti ve risk bayrakları.",
+    "targetAudience": "KOBİ sahipleri",
+    "coreFeatures": "PDF yükle, özet, risk",
+    "differentiator": "Avukat onayı opsiyonel",
+    "selectedPersonas": ["skeptical", "non-technical"],
+    "expectedOverall": [40, 75]
+  },
+  {
+    "id": "eval-12",
+    "productName": "FitCoach Lite",
+    "productDescription": "Kişisel antrenman planı ve hatırlatmalar.",
+    "targetAudience": "Başlangıç seviyesi sporcular",
+    "coreFeatures": "Plan, video, streak",
+    "differentiator": "Türkçe koç dili",
+    "selectedPersonas": ["first-timer", "student"],
+    "expectedOverall": [45, 82]
+  },
+  {
+    "id": "eval-13",
+    "productName": "InvoiceBot",
+    "productDescription": "WhatsApp üzerinden fatura oluşturma.",
+    "targetAudience": "Esnaf",
+    "coreFeatures": "WhatsApp, e-fatura, hatırlatma",
+    "differentiator": "Uygulama indirmeden",
+    "selectedPersonas": ["non-technical", "price-sensitive"],
+    "expectedOverall": [45, 80]
+  },
+  {
+    "id": "eval-14",
+    "productName": "CrowdLearn",
+    "productDescription": "Topluluk destekli online kurs marketplace.",
+    "targetAudience": "İçerik üreticileri ve öğrenciler",
+    "coreFeatures": "Kurs, yorum, abonelik",
+    "differentiator": "Gelir paylaşımı şeffaf",
+    "selectedPersonas": ["first-timer", "price-sensitive", "skeptical"],
+    "expectedOverall": [35, 75]
+  },
+  {
+    "id": "eval-15",
+    "productName": "GreenAudit",
+    "productDescription": "KOBİ karbon ayak izi tahmini ve rapor.",
+    "targetAudience": "Sürdürülebilirlik sorumluları",
+    "coreFeatures": "Anket, rapor, benchmark",
+    "differentiator": "TR mevzuat şablonları",
+    "selectedPersonas": ["busy-professional", "skeptical"],
+    "expectedOverall": [40, 78]
+  },
+  {
+    "id": "eval-16",
+    "productName": "KidSafe Net",
+    "productDescription": "Aileler için çocuk cihaz ekran süresi ve filtre.",
+    "targetAudience": "Ebeveynler",
+    "coreFeatures": "Filtre, süre, rapor",
+    "differentiator": "Kurulum 3 dakika",
+    "selectedPersonas": ["non-technical", "skeptical", "first-timer"],
+    "expectedOverall": [45, 80]
+  },
+  {
+    "id": "eval-17",
+    "productName": "PitchDeck Pro",
+    "productDescription": "Yatırımcı sunumu için skor ve feedback.",
+    "targetAudience": "Erken aşama founder",
+    "coreFeatures": "Skor, yorum, şablon",
+    "differentiator": "Persona jüri simülasyonu",
+    "selectedPersonas": ["skeptical", "busy-professional"],
+    "expectedOverall": [50, 85]
+  },
+  {
+    "id": "eval-18",
+    "productName": "LocalJobs",
+    "productDescription": "Mahalle esnafı için saatlik iş ilanları.",
+    "targetAudience": "Öğrenciler ve esnaf",
+    "coreFeatures": "İlan, chat, ödeme",
+    "differentiator": "Yakınlık filtresi",
+    "selectedPersonas": ["student", "price-sensitive", "first-timer"],
+    "expectedOverall": [40, 78]
+  },
+  {
+    "id": "eval-19",
+    "productName": "API Watch",
+    "productDescription": "API uptime ve latency izleme.",
+    "targetAudience": "Geliştiriciler",
+    "coreFeatures": "Check, alert, status page",
+    "differentiator": "Ücretsiz 5 endpoint",
+    "selectedPersonas": ["busy-professional", "price-sensitive"],
+    "expectedOverall": [50, 88]
+  },
+  {
+    "id": "eval-20",
+    "productName": "FarmLink",
+    "productDescription": "Çiftçi-restoran taze ürün sipariş ağı.",
+    "targetAudience": "Restoran şefleri ve kooperatifler",
+    "coreFeatures": "Sipariş, lojistik, fatura",
+    "differentiator": "Sezon takvimi",
+    "selectedPersonas": ["non-technical", "busy-professional", "skeptical"],
+    "expectedOverall": [35, 75]
+  }
+]

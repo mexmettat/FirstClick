@@ -13,17 +13,18 @@ function registerFonts(doc: jsPDF) {
 }
 
 const COLORS = {
-  primary: [109, 40, 217] as const,
-  primaryDark: [76, 29, 149] as const,
-  primaryLight: [237, 233, 254] as const,
-  text: [31, 41, 55] as const,
-  muted: [107, 114, 128] as const,
-  border: [229, 231, 235] as const,
-  cardBg: [246, 244, 255] as const,
+  primary: [12, 18, 34] as const, // lab-ink
+  primaryDark: [15, 118, 110] as const, // brand-700
+  primaryLight: [240, 253, 250] as const, // brand-50
+  text: [12, 18, 34] as const,
+  muted: [100, 116, 139] as const,
+  border: [226, 232, 240] as const,
+  cardBg: [244, 247, 250] as const, // lab-chalk
   white: [255, 255, 255] as const,
   success: [16, 185, 129] as const,
   warning: [245, 158, 11] as const,
   danger: [239, 68, 68] as const,
+  signal: [200, 245, 66] as const,
 };
 
 const PAGE = {
@@ -270,7 +271,12 @@ function personaCard(
 export function generatePDF(
   result: AnalysisResult,
   productName?: string,
-  source?: "openai" | "mock"
+  source?: "openai" | "mock",
+  extras?: {
+    ragSources?: { citation: string; sourceType: string; excerpt: string }[];
+    analysisId?: string | null;
+    compareDelta?: { label: string; before: number; after: number; delta: number }[];
+  }
 ) {
   const doc = new jsPDF("p", "mm", "a4");
   registerFonts(doc);
@@ -292,6 +298,10 @@ export function generatePDF(
   doc.text(`Tarih: ${today}`, PAGE.marginX, y);
   y += 6;
   doc.text(`Analiz Kaynağı: ${source === "openai" ? "OpenAI" : "Demo (Mock)"}`, PAGE.marginX, y);
+  if (extras?.analysisId) {
+    y += 6;
+    doc.text(`Analiz ID: ${extras.analysisId}`, PAGE.marginX, y);
+  }
   setText(doc, COLORS.text);
   y += 12;
 
@@ -302,6 +312,16 @@ export function generatePDF(
   y = scoreBar(doc, "Onboarding Riski", result.onboardingRiskScore, y, true);
   y = scoreBar(doc, "Hedef Kitle Uyumu", result.targetFitScore, y);
   y += 4;
+
+  if (extras?.compareDelta && extras.compareDelta.length > 0) {
+    y = sectionTitle(doc, "v1 → v2 Skor Farkları", y);
+    const deltaLines = extras.compareDelta.map(
+      (d) =>
+        `${d.label}: ${d.before} → ${d.after} (${d.delta > 0 ? "+" : ""}${d.delta})`
+    );
+    y = bulletList(doc, deltaLines, y);
+    y += 4;
+  }
 
   y = sectionTitle(doc, "Persona Simülasyonları", y);
   result.personas.forEach((persona) => {
@@ -326,6 +346,15 @@ export function generatePDF(
 
   y = sectionTitle(doc, "Jüri / Yatırımcı Soruları", y);
   y = bulletList(doc, result.toughQuestions, y, true);
+
+  if (extras?.ragSources && extras.ragSources.length > 0) {
+    y += 4;
+    y = sectionTitle(doc, "Kaynaklar (citations)", y);
+    const cites = extras.ragSources.map(
+      (s) => `${s.citation} — ${s.excerpt.slice(0, 120)}${s.excerpt.length > 120 ? "…" : ""}`
+    );
+    y = bulletList(doc, cites, y);
+  }
 
   drawFooters(doc);
 

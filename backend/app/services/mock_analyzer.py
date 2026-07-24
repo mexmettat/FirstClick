@@ -122,6 +122,21 @@ def generate_mock_analysis(form: AnalysisFormData) -> AnalysisResult:
                 likelihood=_likelihood(persona_score),
                 dropOffReason=template["drop_off_reason"],
                 suggestion=template["suggestion"],
+                citations=[],
+                dropOffTimeline=[
+                    {"step": "Landing", "moment": "İlk cümleyi okudum", "friction": "med"},
+                    {"step": "CTA", "moment": "Deneme butonuna baktım", "friction": "low"},
+                    {
+                        "step": "Kurulum",
+                        "moment": template["confusion"][:80],
+                        "friction": "high",
+                    },
+                    {
+                        "step": "Fiyat",
+                        "moment": template["drop_off_reason"][:80],
+                        "friction": "med",
+                    },
+                ],
             )
         )
 

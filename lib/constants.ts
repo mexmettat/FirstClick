@@ -36,4 +36,9 @@ export const DEFAULT_PERSONA_IDS = PERSONA_OPTIONS.slice(0, 4).map((p) => p.id);
 export const STORAGE_KEYS = {
   formData: "firstclick-form-data",
   analysisResult: "firstclick-analysis-result",
+  ragSources: "firstclick-rag-sources",
+  analysisId: "firstclick-analysis-id",
 } as const;
+
+/** Google/GitHub OAuth — enable in production Supabase dashboard + set true in env */
+export const OAUTH_ENABLED = process.env.NEXT_PUBLIC_OAUTH_ENABLED === "true";

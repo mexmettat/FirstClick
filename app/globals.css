@@ -3,18 +3,178 @@
 @tailwind utilities;
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  --background: #f4f7fa;
+  --foreground: #0c1222;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(13, 148, 136, 0.08), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(200, 245, 66, 0.06), transparent 50%),
+    var(--background);
+  font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .lab-grid {
+    background-image:
+      linear-gradient(to right, rgba(12, 18, 34, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(12, 18, 34, 0.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .font-display {
+    font-family: var(--font-display), system-ui, sans-serif;
+  }
+}
+
+/* Presence — persona talk room */
+.presence-room {
+  color: #f3f4f6;
+}
+
+.presence-controls .presence-control-btn.is-active {
+  background-color: rgba(16, 185, 129, 0.22) !important;
+}
+
+.presence-controls .presence-control-btn:not(.is-active) {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.presence-controls .presence-control-icon {
+  color: #ffffff !important;
+  background-color: #454545 !important;
+}
+
+.presence-controls .presence-control-icon.is-disabled {
+  opacity: 0.65;
+}
+
+.presence-controls .presence-control-label {
+  color: #f3f4f6 !important;
+}
+
+.presence-controls .presence-control-label.is-active {
+  color: #6ee7b7 !important;
+}
+
+.presence-controls .presence-control-label.is-disabled {
+  color: #cbd5e1 !important;
+}
+
+.presence-room .presence-answer-confirm-title {
+  color: #ffffff !important;
+}
+
+.presence-room .presence-answer-confirm-desc {
+  color: #e2e8f0 !important;
+}
+
+.presence-room .presence-answer-confirm-preview {
+  color: #f9fafb !important;
+  background-color: #0d0d0d !important;
+  border-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+.presence-room .presence-answer-confirm-primary {
+  color: #ffffff !important;
+  background-color: #0b5cff !important;
+}
+
+.presence-room .presence-answer-confirm-secondary {
+  color: #f9fafb !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+.presence-room .presence-header-title {
+  color: #ffffff !important;
+}
+
+.presence-room .presence-header-subtitle {
+  color: #cbd5e1 !important;
+}
+
+.presence-room .presence-header-chip {
+  color: #f3f4f6 !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.presence-room .presence-header-chip-timer {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.presence-room .presence-header-link {
+  color: #f3f4f6 !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  text-decoration: none;
+}
+
+.presence-room .presence-caption-label {
+  color: #cbd5e1 !important;
+}
+
+.presence-room .presence-caption-text {
+  color: #ffffff !important;
+}
+
+.presence-room .presence-phase-bar-text {
+  color: #e2e8f0 !important;
+}
+
+.presence-room .presence-avatar-office-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-color: #0d0d0d;
+  background-image: var(--presence-avatar-bg, none);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.presence-room .presence-avatar-office-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.14);
+  pointer-events: none;
+}
+
+.presence-mic-bar {
+  animation: presence-mic-pulse 0.9s ease-in-out infinite;
+}
+
+@keyframes presence-mic-pulse {
+  0%,
+  100% {
+    transform: translateX(-120%);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translateX(220%);
+    opacity: 1;
+  }
+}
+
+.presence-connecting-dot {
+  animation: presence-dot-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes presence-dot-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
