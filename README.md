@@ -5,7 +5,7 @@ Grup 15
 
 # **Ürün İle İlgili Bilgiler**
 
-## 👥 **Takım Elemanları**
+## 👥 **Takım Elemanlar**
 
 | Profil | İsim                  | Rol | GitHub |
 | :---: |:----------------------| :--- | :--- |
