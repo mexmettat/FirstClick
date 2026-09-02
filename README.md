@@ -3,7 +3,7 @@ Grup 15
 
 ---
 
-# **Ürün İle İlgili Bilgiler**
+# **Ürün İle İlgili Bilgileri**
 
 ## 👥 **Takım Elemanlar**
 
